@@ -9,7 +9,7 @@
         <h6>Salários Cadastrados</h6>
 
         <p class="btnNovo">
-            <a asp-action="Create" class="btn btn-outline-primary">Novo Salário</a>
+            <a asp-action="Create" class="btn btn-outline-primary btn-sm">Novo Salário</a>
         </p>
 
         @if(TempData["Confirmacao"] != null)
@@ -41,8 +41,8 @@
                         @Html.DisplayFor(modelItem => item.Valor)
                     </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.SalarioId" class="btnNovo btn-outline-info btn-sm">Atualizar</a> |
-                        <a onclick="ExibirModal(@item.SalarioId)" class="btnNovo btn-outline-danger btn-sm">Excluir</a>
+                        <a asp-action="Edit" asp-route-id="@item.SalarioId" class="btn btn-outline-info btn-sm">Atualizar</a> |
+                        <a onclick="ExibirModal(@item.SalarioId)" class="btn btn-outline-danger btn-sm">Excluir</a>
                     </td>
                 </tr>
         }

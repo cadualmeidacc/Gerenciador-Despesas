@@ -60,6 +60,7 @@ namespace GerenciadorDespesas.Controllers
         {
             if (ModelState.IsValid)
             {
+                TempData["Confirmacao"] = "Salário cadastrado com sucesso.";
                 _context.Add(salarios);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -103,6 +104,7 @@ namespace GerenciadorDespesas.Controllers
                 {
                     _context.Update(salarios);
                     await _context.SaveChangesAsync();
+                    TempData["Confirmacao"] = "Salário atualizado com sucesso.";
                 }
                 catch (DbUpdateConcurrencyException)
                 {

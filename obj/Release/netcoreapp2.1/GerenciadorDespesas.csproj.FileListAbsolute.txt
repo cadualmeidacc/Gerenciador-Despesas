@@ -44,3 +44,6 @@ C:\Users\Eduardo\3D Objects\GerenciadorDespesas\GerenciadorDespesas\obj\Release\
 C:\Users\Eduardo\3D Objects\GerenciadorDespesas\GerenciadorDespesas\obj\Release\netcoreapp2.1\GerenciadorDespesas.pdb
 C:\Users\Eduardo\3D Objects\GerenciadorDespesas\GerenciadorDespesas\obj\Release\netcoreapp2.1\GerenciadorDespesas.genruntimeconfig.cache
 C:\Users\Eduardo\3D Objects\GerenciadorDespesas\GerenciadorDespesas\obj\Release\netcoreapp2.1\GerenciadorDespesas.csproj.CopyComplete
+C:\Users\Eduardo\3D Objects\GerenciadorDespesas\GerenciadorDespesas\obj\Release\netcoreapp2.1\GerenciadorDespesas.csproj.AssemblyReference.cache
+C:\Users\Eduardo\3D Objects\GerenciadorDespesas\GerenciadorDespesas\obj\Release\netcoreapp2.1\Razor\Views\Shared\_GastosTotais.cshtml.g.cs
+C:\Users\Eduardo\3D Objects\GerenciadorDespesas\GerenciadorDespesas\obj\Release\netcoreapp2.1\Razor\Views\Shared\Components\Estatisticas\Default.cshtml.g.cs
